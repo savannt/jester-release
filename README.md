@@ -1,4 +1,4 @@
-# Jester ([docs](https://aoughwl.com))
+# Jester ([docs](https://aoughwl.github.io/docs/jester))
 
 [Unity](https://unity.com), turned into a game you mod while it is running.
 
@@ -19,7 +19,7 @@ all replaceable, all swappable without stopping the game.
 | Assets | their store | their pipeline | read them out of games you own |
 | Distribution | their platform, revenue cut | their platform | one build, your releases |
 
-Mods are written in [aowlmony](https://aoughwl.com): a from-scratch clone of
+Mods are written in [aowlmony](https://aoughwl.github.io): a from-scratch clone of
 the unreleased Nim 3.0, except finished, and with an interpreter. Source is
 compiled to a typed intermediate form and executed by `aowli`.
 
@@ -155,7 +155,9 @@ Download, unzip, run. The game updates itself from there afterwards.
 ## Docs
 
 Full documentation, the mod API and the aowlmony language reference:
-**[aoughwl.com/docs/jester](https://aoughwl.com/docs/jester)**
+**[aoughwl.com/docs/jester](https://aoughwl.github.io/docs/jester)**
+
+**[Discord](https://discord.gg/nxa3W7w4rJ)** — where this is being built.
 
 ## This repository
 
