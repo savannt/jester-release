@@ -40,9 +40,9 @@ Jester is not an engine fork, a custom renderer, or a Unity plugin. It is a
 Unity project of a few thousand lines that draws nothing and plays nothing. It
 loads an interpreter, hands it a mod, and answers the calls that come back.
 
-The boundary is 220 host calls. That is the entire contract between a mod and
+The boundary is 258 host calls. That is the entire contract between a mod and
 Unity, and the C# dispatch table and the mod-side declarations are the same
-220 names, and the two lists are checked against each other rather than merely
+258 names, and the two lists are checked against each other rather than merely
 counted. Gameplay never crosses into C#; C# never knows what game is running.
 
 Because the host is small, it can be frozen. Ship it once, and every game after
